@@ -106,6 +106,12 @@ div.infoDIV {
 	border-right: 1px solid #cbc7b3;
 	border-left: 1px solid #cbc7b3;
 
+        font-family: 'Cabin';
+        font-weight: 700;
+        color: #000;
+        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+        text-align: center;
+        font-size: 14px;
 	float: right;
 	width: 50%;
 }
@@ -276,4 +282,8 @@ div.priceDIV {
 
 div.priceDIV table, th, td {
 	border: 1px solid #4571fd;
+}
+
+div.contactDIV table, th, td {
+	border: 0;
 }
