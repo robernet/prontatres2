@@ -184,7 +184,13 @@ var activateButtons = function() {
         	$('option08').addEvent('click', function(){
 			menuHide();
 			if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
-			$("canvasContentDIV").innerHTML = "<center><h1>Opcion 08</h1><center>";
-        	});
+			new Request.HTML({
+				url: "about.html",
+				method: "get",
+				update: $("canvasContentDIV"),
+				onComplete: function() {
+				}
+			}).send();
+		});
 	}
 };

@@ -287,3 +287,21 @@ div.priceDIV table, th, td {
 div.contactDIV table, th, td {
 	border: 0;
 }
+
+div.aboutDIV {
+	font-family: 'Cabin';
+	font-weight: 500;
+	color: #000;
+	text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+	text-align: left;
+	font-size: 14px;
+}
+
+div.aboutDIV img {
+	max-width: 100%;
+	height: auto;
+}
+
+div.aboutDIV p {
+	padding: 10px;
+}
