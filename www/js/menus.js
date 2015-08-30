@@ -125,6 +125,13 @@ var activateButtons = function() {
 //					$("canvasContentDIV").innerHTML = "<h1>Error en la conexion</h1><h2>No se pudo cargar el menu.< br/>Revise su conexion a Internet</h2>";
 //				}
 //			}).send();
+			new Request.HTML({
+				url: "construccion.html",
+				method: "get",
+				update: $("canvasContentDIV"),
+				onComplete: function() {
+				}
+			}).send();
 		});
 	}
 	if ($('option03')){
@@ -149,8 +156,14 @@ var activateButtons = function() {
         	$('option04').addEvent('click', function(){
 			menuHide();
 			if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
-			$("canvasContentDIV").innerHTML = "<center><h1>Opcion 04</h1><center>";
-        	});
+			new Request.HTML({
+				url: "construction.html",
+				method: "get",
+				update: $("canvasContentDIV"),
+				onComplete: function() {
+				}
+			}).send();
+		});
 	}
 	if ($('option05')){
 		$('option05').addEvent('click', function(){
@@ -170,22 +183,34 @@ var activateButtons = function() {
         	$('option06').addEvent('click', function(){
 			menuHide();
 			if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
-			$("canvasContentDIV").innerHTML = "<center><h1>Opcion 06</h1><center>";
-        	});
+			new Request.HTML({
+				url: "construction.html",
+				method: "get",
+				update: $("canvasContentDIV"),
+				onComplete: function() {
+				}
+			}).send();
+		});
 	}
 	if ($('option07')){
         	$('option07').addEvent('click', function(){
 			menuHide();
 			if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
-			$("canvasContentDIV").innerHTML = "<center><h1>Opcion 07</h1><center>";
-        	});
+   			new Request.HTML({
+    				url: "construction.html",
+    				method: "get",
+    				update: $("canvasContentDIV"),
+    				onComplete: function() {
+    				}
+   			}).send();
+		});
 	}
 	if ($('option08')){
         	$('option08').addEvent('click', function(){
 			menuHide();
 			if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
 			new Request.HTML({
-				url: "about.html",
+				url: "info.html",
 				method: "get",
 				update: $("canvasContentDIV"),
 				onComplete: function() {

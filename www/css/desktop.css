@@ -305,3 +305,17 @@ div.aboutDIV img {
 div.aboutDIV p {
 	padding: 10px;
 }
+
+div.constructionDIV {
+	font-family: 'Cabin';
+	font-weight: 500;
+	color: #000;
+	text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+	text-align: center;
+	font-size: 14px;
+}
+
+div.constructionDIV p {
+	padding: 10px;
+}
+
