@@ -106,12 +106,12 @@ div.infoDIV {
 	border-right: 1px solid #cbc7b3;
 	border-left: 1px solid #cbc7b3;
 
-        font-family: 'Cabin';
-        font-weight: 700;
-        color: #000;
-        text-shadow: 0px 1px #fff, 0px -1px #97A63A;
-        text-align: center;
-        font-size: 14px;
+	font-family: 'Cabin';
+	font-weight: 700;
+	color: #000;
+	text-shadow: 0px 1px #fff, 0px -1px #97A63A;
+	text-align: center;
+	font-size: 20px;
 	float: right;
 	width: 50%;
 }
@@ -150,7 +150,7 @@ div.mapsDIV {
 #menuSort p.nombreItem {
 	position: relative;
 	text-align: center;
-	font-size: large;
+	font-size: 20px;
 	color: #000;
 }
 .button {
@@ -287,6 +287,9 @@ div.priceDIV table, th, td {
 div.contactDIV table, th, td {
 	border: 0;
 }
+div.contactDIV p {
+	font-size: 26px;
+}
 
 div.aboutDIV {
 	font-family: 'Cabin';
@@ -294,7 +297,7 @@ div.aboutDIV {
 	color: #000;
 	text-shadow: 0px 1px #fff, 0px -1px #97A63A;
 	text-align: left;
-	font-size: 14px;
+	font-size: 26px;
 }
 
 div.aboutDIV img {
@@ -312,7 +315,7 @@ div.constructionDIV {
 	color: #000;
 	text-shadow: 0px 1px #fff, 0px -1px #97A63A;
 	text-align: center;
-	font-size: 14px;
+	font-size: 26px;
 }
 
 div.constructionDIV p {
