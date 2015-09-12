@@ -2,8 +2,8 @@ var showMaps = function() {
 
 	var mapa1 = new GMaps({
 		div: "#mapa1",
-		lat: 19.06508,
-		lng: -98.24539
+		lat: 18.99812,
+		lng: -98.28229
 	});
 	var mapa2 = new GMaps({
 		div: "#mapa2",

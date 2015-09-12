@@ -107,24 +107,6 @@ var activateButtons = function() {
         	$('option02').addEvent('click', function(){
        			menuHide();
 			if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
-//			$("canvasDIV").setStyle("background-image", "url('img/fondo_madera.jpg')");
-//			$("canvasDIV").setStyle("background-size", "cover");
-//			$("canvasDIV").setStyle("background-repeat", "repeat-y");
-//			$("canvasDIV").setStyle("background-position", "center center");
-
-//			new Request.HTML({
-//				url: "http://yolagunero-robernet.rhcloud.com/products",
-//				method: "get",
-//				update: $("canvasContentDIV"),
-//				onRequest: function() {
-//					$("canvasContentDIV").innerHTML = "<img src='img/loading.gif' />";
-//				},
-//				onComplete: function() {
-//				},
-//				onFailure: function() {
-//					$("canvasContentDIV").innerHTML = "<h1>Error en la conexion</h1><h2>No se pudo cargar el menu.< br/>Revise su conexion a Internet</h2>";
-//				}
-//			}).send();
 			new Request.HTML({
 				url: "construccion.html",
 				method: "get",
@@ -154,15 +136,15 @@ var activateButtons = function() {
 	}
 	if ($('option04')){
         	$('option04').addEvent('click', function(){
-			menuHide();
-			if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
-			new Request.HTML({
-				url: "construction.html",
-				method: "get",
-				update: $("canvasContentDIV"),
-				onComplete: function() {
-				}
-			}).send();
+                        menuHide();
+                        if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
+                        new Request.HTML({
+                                url: "construccion.html",
+                                method: "get",
+                                update: $("canvasContentDIV"),
+                                onComplete: function() {
+                                }
+                        }).send();
 		});
 	}
 	if ($('option05')){
@@ -181,28 +163,28 @@ var activateButtons = function() {
 	}
 	if ($('option06')){
         	$('option06').addEvent('click', function(){
-			menuHide();
-			if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
-			new Request.HTML({
-				url: "construction.html",
-				method: "get",
-				update: $("canvasContentDIV"),
-				onComplete: function() {
-				}
-			}).send();
+                        menuHide();
+                        if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
+                        new Request.HTML({
+                                url: "construccion.html",
+                                method: "get",
+                                update: $("canvasContentDIV"),
+                                onComplete: function() {
+                                }
+                        }).send();
 		});
 	}
 	if ($('option07')){
         	$('option07').addEvent('click', function(){
-			menuHide();
-			if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
-   			new Request.HTML({
-    				url: "construction.html",
-    				method: "get",
-    				update: $("canvasContentDIV"),
-    				onComplete: function() {
-    				}
-   			}).send();
+                        menuHide();
+                        if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
+                        new Request.HTML({
+                                url: "construccion.html",
+                                method: "get",
+                                update: $("canvasContentDIV"),
+                                onComplete: function() {
+                                }
+                        }).send();
 		});
 	}
 	if ($('option08')){
