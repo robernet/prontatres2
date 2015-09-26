@@ -3,7 +3,7 @@ var showMaps = function() {
 	var mapa1 = new GMaps({
 		div: "#mapa1",
 		lat: 19.03051,
-		lng: -98.27799
+		lng: -98.27785
 	});
 	var mapa2 = new GMaps({
 		div: "#mapa2",
@@ -18,7 +18,7 @@ var showMaps = function() {
 
 	mapa1.addMarker({
 		lat: 19.03051,
-		lng: -98.27799,
+		lng: -98.27785,
 		title: 'Matriz Puebla',
 		infoWindow: {
 			content: '<p>Matriz Puebla</p>'

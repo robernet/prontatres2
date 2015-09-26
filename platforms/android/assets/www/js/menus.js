@@ -33,6 +33,10 @@ Object.append(menuSort, {
 				$("menuAreaDIV").innerHTML = "<img src='img/loading.gif' />";
 			},
 			onComplete: function() {
+				var iconWidth = Math.floor((screen.width*200)/720).toString();
+				$$(".menuIcon").each(function(el) {
+					el.setStyle("max-width", iconWidth+"px");
+				});
 				menuSort.calculate();
 				activateButtons();
 			}
