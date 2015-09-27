@@ -29,7 +29,7 @@ var showMaps = function() {
 		lng: -89.63080,
 		title: 'Merida 1',
 		infoWindow: {
-			content: '<p>Merida 1<br /><br /><a href="geo:0,0?q=20.99716,-89.63080(Pronta%20Tres%Merida%201)">Abrir en Google Maps</p></a>'
+			content: '<p>Merida 1<br /><br /><a href="geo:0,0?q=20.99716,-89.63080(Pronta%20Tres%20Merida%201)">Abrir en Google Maps</p></a>'
 		}
 	});
 	mapa3.addMarker({
@@ -37,7 +37,7 @@ var showMaps = function() {
 		lng: -89.62285,
 		title: 'Merida 2',
 		infoWindow: {
-			content: '<p>Merida 2<br /><br /><a href="geo:0,0?q=21.00614,-89.62285(Pronts%20Tres%20Merida%202)">Abrir en Google Maps</p></a>'
+			content: '<p>Merida 2<br /><br /><a href="geo:0,0?q=21.00614,-89.62285(Pronta%20Tres%20Merida%202)">Abrir en Google Maps</p></a>'
 		}
 	});
 }
