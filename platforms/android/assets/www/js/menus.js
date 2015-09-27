@@ -25,6 +25,7 @@ var slides = "";
 Object.append(menuSort, {
 
 	initialize: function() {
+		var iconWidth = 0;
 		new Request.HTML({
 			url: "menus.html",
 			method: "get",
@@ -33,10 +34,10 @@ Object.append(menuSort, {
 				$("menuAreaDIV").innerHTML = "<img src='img/loading.gif' />";
 			},
 			onComplete: function() {
-				var iconWidth = Math.floor((screen.width*200)/720).toString();
-				$$(".menuIcon").each(function(el) {
-					el.setStyle("max-width", iconWidth+"px");
-				});
+//				iconWidth = Math.floor((screen.width*400)/720).toString();
+//				$$(".menuIcon").each(function(el) {
+//					el.setStyle("width", iconWidth+"px");
+//				});
 				menuSort.calculate();
 				activateButtons();
 			}
