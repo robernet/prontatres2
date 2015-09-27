@@ -1,10 +1,10 @@
 var Banner = (Banner || {});
-var bannerDIV = "";
+//var bannerDIV = "";
 
 Object.append(Banner, {
 
 	initialize: function() {
-		bannerDIV = new Fx.Slide('bannerAreaDIV', {mode: 'horizontal',resetHeight: true});
+//		bannerDIV = new Fx.Slide('bannerAreaDIV', {mode: 'horizontal',resetHeight: true});
 		new Request.HTML({
 			url: "banner.html",
 			method: "get",
@@ -12,12 +12,12 @@ Object.append(Banner, {
 			onComplete: function() {
 			}
 		}).send();
-	},
-	bannerIn: function() {
-		bannerDIV.slideIn();
-	},
-	bannerOut: function() {
-		bannerDIV.slideOut();
+//	},
+//	bannerIn: function() {
+//		bannerDIV.slideIn();
+//	},
+//	bannerOut: function() {
+//		bannerDIV.slideOut();
 	}
 
 });
