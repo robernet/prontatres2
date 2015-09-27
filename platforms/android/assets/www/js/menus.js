@@ -168,32 +168,6 @@ var activateButtons = function() {
 	}
 	if ($('option06')){
         	$('option06').addEvent('click', function(){
-                        menuHide();
-                        if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
-                        new Request.HTML({
-                                url: "construccion.html",
-                                method: "get",
-                                update: $("canvasContentDIV"),
-                                onComplete: function() {
-                                }
-                        }).send();
-		});
-	}
-	if ($('option07')){
-        	$('option07').addEvent('click', function(){
-                        menuHide();
-                        if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
-                        new Request.HTML({
-                                url: "construccion.html",
-                                method: "get",
-                                update: $("canvasContentDIV"),
-                                onComplete: function() {
-                                }
-                        }).send();
-		});
-	}
-	if ($('option08')){
-        	$('option08').addEvent('click', function(){
 			menuHide();
 			if ($("canvasDIV").getStyle("display")=="none") canvasShow(); else $("canvasDIV").setStyle("background-image", "none");
 			new Request.HTML({
