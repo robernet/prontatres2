@@ -26,6 +26,7 @@ Object.append(menuSort, {
 
 	initialize: function() {
 		var iconWidth = 0;
+		var iconHeight = 0;
 		new Request.HTML({
 			url: "menus.html",
 			method: "get",
@@ -34,11 +35,16 @@ Object.append(menuSort, {
 				$("menuAreaDIV").innerHTML = "<img src='img/loading.gif' />";
 			},
 			onComplete: function() {
-//				iconWidth = Math.floor((screen.width*400)/720).toString();
-//				$$(".menuIcon").each(function(el) {
+//				iconWidth = Math.floor((screen.width*200)/720).toString();
+//				iconHeight = Math.floor((screen.width*250)/720).toString();
+//				$$("div.menuIcon").each(function(el) {
 //					el.setStyle("width", iconWidth+"px");
 //				});
-				menuSort.calculate();
+//				$$("li.menuItem").each(function(el) {
+//					el.setStyle("width", iconWidth+"px");
+//					el.setStyle("height", iconHeight+"px");
+//				});
+//				menuSort.calculate();
 				activateButtons();
 			}
 		}).send();
